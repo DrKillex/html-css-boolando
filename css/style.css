@@ -10,8 +10,22 @@
 
 .gender-age-selector {
     font-size: 12px;
+    font-weight: 700;
 }
 
+.brand {
+    font-size: 10px;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.current-price, .full-price {
+    font-size: 12px;
+}
+ 
 /* common */
 
 body {
@@ -46,7 +60,7 @@ nav > div.container {
     align-items: center;
 }
 
-.container div {
+header .container div {
     padding: 10px 0;
 }
 
@@ -54,5 +68,47 @@ nav img {
     width: 100px;
 }
 
+/* main */
+
+.item {
+    display: inline-block;
+    width: 300px;  
+    margin-top: 50px;     
+}
+
+.item .img-box {
+    position: relative;
+}
+
+.item .img-box img {
+    width: 100%;
+    display: block;
+}
+
+.normal-img{
+    position: absolute;
+}
+
+.normal-img {
+    opacity: 1;
+}
+
+.normal-img:hover {
+    opacity: 0;
+}
+
+.item .detail-item {
+    color: black;
+}
+
+.current-price {
+    color: red;
+}
+
+.full-price {
+    text-decoration: line-through;
+}
+
+/* footer */
 
 
