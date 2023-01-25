@@ -42,6 +42,10 @@ a {
     margin: 0 auto;
 }
 
+.on-img {
+    position: absolute;
+}
+
 /* header */
 
 nav {
@@ -69,6 +73,12 @@ nav img {
 }
 
 /* main */
+
+main div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .item {
     display: inline-block;
@@ -107,6 +117,37 @@ nav img {
 
 .full-price {
     text-decoration: line-through;
+}
+
+.heart {
+    color: black;
+    background-color: white;
+    right: 0;
+    top: 40px;
+    padding: 5px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.eco-friendly {
+    background-color: #008000;
+    bottom: 30px;
+}
+
+.sconto {
+    background-color: #FF0000;
+    bottom: 30px;
+}
+
+.sconto, .eco-friendly {
+    padding: 0 5px;
+}
+
+.sconto + .eco-friendly {
+    bottom: 30px;
+    left: 50px;
 }
 
 /* footer */
