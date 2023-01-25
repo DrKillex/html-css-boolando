@@ -151,11 +151,12 @@ main div.container {
 
 .sconto, .eco-friendly {
     padding: 0 5px;
+    font-size: 12px;
 }
 
 .sconto + .eco-friendly {
     bottom: 30px;
-    left: 50px;
+    left: 38px;
 }
 
 /* footer */
