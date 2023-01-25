@@ -25,7 +25,11 @@
 .current-price, .full-price {
     font-size: 12px;
 }
- 
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* common */
 
 body {
@@ -55,7 +59,7 @@ nav {
     right: 0;
     z-index: 666;
     background-color: #FF6900;
-
+    box-shadow: -3px -7px 13px 10px rgba(0,0,0,0.53);
 }
 
 nav > div.container {
@@ -70,6 +74,10 @@ header .container div {
 
 nav img {
     width: 100px;
+}
+
+nav a {
+    padding-left: 5px;
 }
 
 /* main */
@@ -152,4 +160,33 @@ main div.container {
 
 /* footer */
 
+footer {
+    background-color: #1A1A1A;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+}
 
+.company-name {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-left a {
+    font-size: 10px;
+}
+
+.footer-right {
+    font-size: 14px;
+}
+
+.footer-right div {
+    margin-bottom: 5px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
