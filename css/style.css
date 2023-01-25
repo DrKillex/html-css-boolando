@@ -5,3 +5,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* typo */
+
+.gender-age-selector {
+    font-size: 12px;
+}
+
+/* common */
+
+body {
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* header */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 666;
+    background-color: #FF6900;
+
+}
+
+nav > div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div {
+    padding: 10px 0;
+}
+
+nav img {
+    width: 100px;
+}
+
+
+
